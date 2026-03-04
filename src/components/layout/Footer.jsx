@@ -39,9 +39,9 @@ export default function Footer({ t }) {
           <p className="font-body text-stone-600 text-xs">
             © {new Date().getFullYear()} {t(TEMPLE_META.name)} Trust.
           </p>
-          <p className="font-display text-amber-800/60 text-sm italic">
+          {/* <p className="font-display text-amber-800/60 text-sm italic">
             ॐ नमः शिवाय
-          </p>
+          </p> */}
         </div>
       </div>
     </footer>

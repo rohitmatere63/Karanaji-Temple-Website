@@ -62,20 +62,19 @@ export default function Contact({ t, lang }) {
 
         {/* Map placeholder */}
         <FadeIn delay={0.1}>
-          <div className="rounded-2xl overflow-hidden mb-8 border border-amber-900/30">
-            <div className="bg-stone-800 h-40 flex items-center justify-center">
-              <div className="text-center">
-                <p className="text-3xl mb-2">🗺️</p>
-                <p className="font-body text-stone-400 text-xs tracking-wide">
-                  Google Maps Embed
-                </p>
-                <p className="font-body text-stone-600 text-xs mt-1">
-                  Replace with your iframe
-                </p>
-              </div>
-            </div>
-          </div>
-        </FadeIn>
+  <div className="rounded-2xl overflow-hidden mb-8 border border-amber-900/30">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3742.675509012671!2d73.8889664755965!3d20.27228808119447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdddef660a42c47%3A0x92c01ad85bbd017!2sKardamashram%20Datta%20Devsthan!5e0!3m2!1sen!2sin!4v1772645445603!5m2!1sen!2sin"
+      width="100%"
+      height="250"
+      style={{ border: 0 }}
+      allowFullScreen=""
+      loading="lazy"
+      referrerPolicy="no-referrer-when-downgrade"
+      title="Temple Location"
+    />
+  </div>
+</FadeIn>
 
         {/* Contact Form */}
         <FadeIn delay={0.2}>

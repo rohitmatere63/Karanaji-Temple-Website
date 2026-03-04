@@ -5,7 +5,7 @@ import { useLanguage } from "./hooks/useLanguage";
 
 import Layout   from "./components/layout/Layout";
 import Hero     from "./components/sections/Hero";
-import Marquee  from "./components/sections/Marquee";
+// import Marquee  from "./components/sections/Marquee";
 import About    from "./components/sections/About";
 import Schedule from "./components/sections/Schedule";
 import Events   from "./components/sections/Events";
@@ -26,7 +26,7 @@ export default function App() {
       t={t}
     >
       <Hero     t={t} />
-      <Marquee  />
+      {/* <Marquee  /> */}
       <About    t={t} />
       <Schedule t={t} />
       <Events   t={t} />

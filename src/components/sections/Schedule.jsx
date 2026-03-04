@@ -40,7 +40,7 @@ export default function Schedule({ t }) {
 
         <FadeIn delay={0.5}>
           <p className="font-body text-stone-500 text-xs text-center mt-8 leading-relaxed">
-            Temple open daily · Special timings on festival days
+            Temple open daily 
           </p>
         </FadeIn>
       </div>
