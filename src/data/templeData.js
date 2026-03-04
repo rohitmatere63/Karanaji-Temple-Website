@@ -47,13 +47,13 @@ export const TEMPLE_META = {
 
 // ─── Nav Links ────────────────────────────────────────────────
 export const NAV_LINKS = [
-  { id: "home",     label: { en: "Home",     hi: "होम",      mr: "मुख्यपान" } },
-  { id: "about",    label: { en: "About",    hi: "परिचय",    mr: "परिचय" } },
-  { id: "schedule", label: { en: "Schedule", hi: "समय-सारिणी", mr: "वेळापत्रक" } },
-  { id: "events",   label: { en: "Events",   hi: "आयोजन",    mr: "कार्यक्रम" } },
-  { id: "gallery",  label: { en: "Gallery",  hi: "गैलरी",    mr: "गॅलरी" } },
-  { id: "updates",  label: { en: "Updates",  hi: "समाचार",   mr: "अपडेट्स" } },
-  { id: "contact",  label: { en: "Contact",  hi: "संपर्क",   mr: "संपर्क" } },
+  { id: "home",     label: { en: "Home",     hi: "Home",      mr: "Home" } },
+  { id: "about",    label: { en: "About",    hi: "About",    mr: "About" } },
+  { id: "schedule", label: { en: "Schedule", hi: "Schedule", mr: "Schedule" } },
+  { id: "events",   label: { en: "Events",   hi: "Events",    mr: "Events" } },
+  { id: "gallery",  label: { en: "Gallery",  hi: "Gallery",    mr: "Gallery" } },
+  { id: "updates",  label: { en: "Updates",  hi: "Updates",   mr: "Updates" } },
+  { id: "contact",  label: { en: "Contact",  hi: "Contact",   mr: "Contact" } },
 ];
 
 // ─── Daily Schedule ───────────────────────────────────────────

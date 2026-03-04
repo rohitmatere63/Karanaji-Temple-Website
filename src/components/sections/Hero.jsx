@@ -37,7 +37,7 @@ export default function Hero({ t }) {
   };
 
   return (
-    <section id="home" className="relative h-[92vh] min-h-[500px] overflow-hidden">
+    <section id="home" className="relative h-[65h] min-h-[500px] overflow-hidden">
 
       {/* Sliding track — all images in a row */}
       <div

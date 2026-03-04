@@ -6,7 +6,7 @@ const LANGUAGES = [
 
 export default function LanguageSwitcher({ lang, setLang }) {
   return (
-    <div className="flex items-center gap-1">
+    <div className="flex items-center gap-0.5">
       {LANGUAGES.map(({ code, label }, i) => (
         <span key={code} className="flex items-center gap-1">
           <button

@@ -6,8 +6,8 @@ export default function Gallery({ t }) {
   return (
     <section id="gallery" className="py-16 px-4 bg-white">
       <div className="max-w-4xl mx-auto">
-        <SectionHeader eyebrow="Visual Journey" heading="Temple Gallery" />
-
+        {/* <SectionHeader eyebrow="Visual Journey" heading="Temple Gallery" /> */}
+<SectionHeader  heading="Temple Gallery" />
         <div className="grid grid-cols-2 gap-3">
           {GALLERY_ITEMS.map((item, i) => (
             <GalleryCard key={i} item={item} delay={i * 0.08} t={t} />
