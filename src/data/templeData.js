@@ -174,4 +174,7 @@ export const UI_TEXT = {
   contact:       { en: "Contact",            hi: "संपर्क",          mr: "संपर्क" },
   howToReach:    { en: "How to Reach",       hi: "कैसे पहुँचें",    mr: "कसे पोहोचाल" },
   scrollDown:    { en: "Scroll",             hi: "स्क्रॉल करें",    mr: "स्क्रोल करा" },
+  ourStory: { en: "Our Story", hi: "हमारी कहानी", mr: "आमची कथा" },
+aHomeForThe: { en: "A Home for the", hi: "का पावन धाम", mr: "चे पवित्र धाम" },
+divine: { en: "Divine", hi: "परमात्मा", mr: "परमात्मा" },
 };
