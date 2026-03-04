@@ -44,11 +44,11 @@ export default function Hero({ t }) {
       {/* Content */}
       <div className="relative z-10 h-full flex flex-col items-center justify-center px-6 text-center">
         <p className="font-body text-amber-400 text-xs tracking-[0.3em] uppercase mb-4">
-          Est. 1962 · Pune, Maharashtra
+          Dindori,Nashik, Maharashtra
         </p>
 
         <h1 className="font-display text-white text-4xl md:text-6xl font-light leading-tight mb-3">
-          Shri Mahadev <br />
+          Gurudev Datt <br />
           <em className="text-amber-400 not-italic">Mandir</em>
         </h1>
 
