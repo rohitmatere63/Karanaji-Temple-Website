@@ -39,7 +39,7 @@ export default function Contact({ t, lang }) {
       style={{ background: "linear-gradient(135deg, #1c1208 0%, #2a1a0a 100%)" }}
     >
       <div className="max-w-lg mx-auto">
-        <SectionHeader eyebrow="Find Us" heading="Visit the Temple" theme="dark" />
+        <SectionHeader heading="Visit the Temple" theme="dark" />
 
         {/* Contact Info */}
         <FadeIn>

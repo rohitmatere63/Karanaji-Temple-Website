@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 export function useLanguage() {
-  const [lang, setLang] = useState("en");
+  const [lang, setLang] = useState("mr");
 
   // Helper — pass any { en, hi, mr } object and get the right string
   const t = (obj) => {

@@ -32,9 +32,9 @@ function EventCard({ event, delay, t }) {
               {event.year}
             </p>
           </div>
-          <span className="tag-pill text-amber-800 bg-amber-50 border border-amber-200 px-2.5 py-1 rounded-full">
+          {/* <span className="tag-pill text-amber-800 bg-amber-50 border border-amber-200 px-2.5 py-1 rounded-full">
             {t(event.tag)}
-          </span>
+          </span> */}
         </div>
 
         {/* Title */}

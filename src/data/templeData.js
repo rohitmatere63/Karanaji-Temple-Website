@@ -155,7 +155,7 @@ export const CONTACT_PURPOSES = {
 
 // ─── UI Text (buttons, labels, etc.) ─────────────────────────
 export const UI_TEXT = {
-  visitUs:       { en: "Visit Us",           hi: "दर्शन करें",      mr: "भेट द्या" },
+  visitUs:       { en: "Visit Us",           hi: "Visit Us",      mr: "Visit Us" },
   todaySchedule: { en: "Today's Schedule",   hi: "आज का समय",       mr: "आजचे वेळापत्रक" },
   learnMore:     { en: "Learn More",         hi: "अधिक जानें",      mr: "अधिक जाणा" },
   ourStory:      { en: "Our Story",          hi: "हमारी कहानी",     mr: "आमची कथा" },
